@@ -2,7 +2,7 @@
 
 Manage your personal cross-project roadmap using `/user:roadmap`.
 
-Uses `~/.claude/personal-roadmap.md` as your personal roadmap file.
+Uses `~/Library/CloudStorage/Dropbox/.claude/personal-roadmap.md` as your personal roadmap file (synced across devices).
 
 ## Available Actions
 
@@ -16,7 +16,7 @@ Uses `~/.claude/personal-roadmap.md` as your personal roadmap file.
 ## Implementation
 
 When you use these commands, I will:
-1. Read your personal roadmap file at `~/.claude/personal-roadmap.md`
+1. Read your personal roadmap file at `~/Library/CloudStorage/Dropbox/.claude/personal-roadmap.md`
 2. Parse the structure to understand your cross-project priorities
 3. Perform the requested action (show, add, update status)
 4. Update the file if changes were made
